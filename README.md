@@ -18,5 +18,7 @@ Seeking for new opportunities and challenges that will expand my skill set.
 * ⚛ React, Angular
 
 ## Examples of Work
-uploading from localhost ...
-<img src="https://media.giphy.com/media/cnzP4cmBsiOrccg20V/giphy.gif" width="40" height="40" />
+uploading from localhost ...<br>
+<div>
+    <img src="https://media.giphy.com/media/cnzP4cmBsiOrccg20V/giphy.gif" width="100" height="80" />
+</div>
