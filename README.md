@@ -19,5 +19,6 @@ Seeking for new opportunities and challenges that will expand my skill set.
 
 ## Examples of Work
 uploading from localhost ...<br>
-
+<div>
     <img src="https://media.giphy.com/media/kdFTsQW5am7ZoCSYz2/giphy.gif" width="100" height="80" />
+</div>
