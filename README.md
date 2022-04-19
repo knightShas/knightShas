@@ -15,7 +15,7 @@ Seeking for new opportunities and challenges that will expand my skill set.
 
 ## Skills and Experience
 * 💻 HTML, CSS, JS, Bootstrap, Sass
-* ⚛ React
+* ⚛ React, Angular
 
 ## Examples of Work
 uploading from localhost ...
