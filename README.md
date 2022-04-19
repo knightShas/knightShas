@@ -1,5 +1,6 @@
 ![Design and Development](https://github.com/knightShas/knightShas/blob/main/cover-thompson.png)
 
+
 (https://github.com/knightShas/knightShas/blob/main/Hi.gif)
 # Shashank Kumar
 I'm a Full Stack Developer with experience of working as an intern in building different website and web application.<br>
@@ -20,4 +21,4 @@ Seeking for new opportunities and challenges that will expand my skill set.
 
 ## Examples of Work
 uploading from localhost ...
-
+<img src="https://media.giphy.com/media/cnzP4cmBsiOrccg20V/giphy.gif" width="40" height="40" />
