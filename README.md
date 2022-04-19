@@ -1,22 +1,22 @@
-![Design and Development](https://github.com/SapanKr800/SapanKr800/blob/main/cover-thompson.png )
+![Design and Development](https://github.com/knightShas/knightShas/blob/main/cover-thompson.png)
 
-# Sapan Kumar
-I'm a Front-end developer with 1 years of experience in building responsive web pages.<br>
+# Shashank Kumar
+I'm a Full Stack Developer with experience of working as an intern in building different website and web application.<br>
 Seeking for new opportunities and challenges that will expand my skill set.
 
 ## About Me
-- 🔭 I’m currently working as Front-End Developer
+- 🔭 I’m Full Stack Developer
 
-- 🌱 I’m currently learning React, Git
+- 🌱 I’m currently learning React, Android, Mongo
 
-- 👨‍💻 All of my projects are available at [https://sapankr800.github.io/Info/index.html](https://sapankr800.github.io/Info/index.html)
+- 👨‍💻 All of my projects are available at 
 
-- 📫 How to reach me sapankr800@gamil.com
+- 📫 How to reach me kumarshashank45@gmail.com
 
 ## Skills and Experience
 * 💻 HTML, CSS, JS, Bootstrap, Sass
 * ⚛ React
 
 ## Examples of Work
-<img src="https://github.com/SapanKr800/SapanKr800/blob/main/project.gif" width="512" >
+uploading from localhost ...
 
