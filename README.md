@@ -16,7 +16,6 @@ Seeking for new opportunities and challenges that will expand my skill set.
 ## Skills and Experience
 * 💻 HTML, CSS, JS, Bootstrap
 * ⚛ React, Angular
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=knightShas"/>
 
 ## Examples of Work
 uploading from localhost ...<br>
