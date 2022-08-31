@@ -27,5 +27,5 @@ Seeking for new opportunities and challenges that will expand my skill set.
 
 ## Top Language
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&hide=Python&theme=dark)
 
