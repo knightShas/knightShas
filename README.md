@@ -9,8 +9,6 @@ Seeking for new opportunities and challenges that will expand my skill set.
 
 - 🌱 I’m currently learning Next.js, Kotlin, Mongo
 
-- 👨‍💻 All of my projects are available at 
-
 - 📫 How to reach me kumarshashank45@gmail.com
 
 ## Skills and Experience
