@@ -1,6 +1,6 @@
 ![Design and Development](https://github.com/knightShas/knightShas/blob/main/cover-pic.png)
 
-# 👋🏼 Hi! I am Shashank Kumar https://img.shields.io/github/followers/knightShas?style=social
+# 👋🏼 Hi! I am Shashank Kumar ![profile](https://img.shields.io/github/followers/knightShas?style=social)
 I'm a Full Stack Developer with experience of working as an intern in building different website and web application.<br>
 Seeking for new opportunities and challenges that will expand my skill set.
 
