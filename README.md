@@ -21,8 +21,11 @@ Seeking for new opportunities and challenges that will expand my skill set.
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/knight-shashank-kumar/)
 
-## Examples of Work
-uploading from localhost ...<br>
-<div>
-    <img src="https://media.giphy.com/media/kdFTsQW5am7ZoCSYz2/giphy.gif" width="100" height="80" />
-</div>
+## Stats
+
+![knightShas's GitHub stats](https://github-readme-stats.vercel.app/api?username=knightShas&&theme=dark&show_icons=true)
+
+## Top Language
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&layout=compact&theme=dark)
+
