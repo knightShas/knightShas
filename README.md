@@ -22,10 +22,10 @@ Seeking for new opportunities and challenges that will expand my skill set.
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/knight-shashank-kumar/)
 
 ## Stats
-<div>
-    ![knightShas's GitHub stats](https://github-readme-stats.vercel.app/api?username=knightShas&&theme=dark&show_icons=true)
-</div>
-<div>
-    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&layout=compact&theme=dark)
-</div>
+
+![knightShas's GitHub stats](https://github-readme-stats.vercel.app/api?username=knightShas&&theme=dark&show_icons=true)
+
+## Top Language
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&layout=compact&theme=dark)
 
