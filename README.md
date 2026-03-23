@@ -16,7 +16,7 @@ I'm a **DevOps & Cloud Engineer** with hands-on experience building and operatin
 - 🚀 Currently working on: **EKS + ALB Ingress Controller** with IRSA & Helm
 - 🌩️ Deep-diving into: **Terraform**, **ArgoCD**, **Prometheus/Grafana** observability stacks
 - 🧠 Philosophy: Infrastructure as Code first, manual steps never
-- 📫 Reach me: [kumarshashank45@gmail.com](mailto:kumarshashank45@gmail.com)
+- 📫 Reach me: [shashankkumar8092@outlook.com](mailto:shashankkumar8092@outlook.com)
 - 🔗 LinkedIn: [knight-shashank-kumar](https://www.linkedin.com/in/knight-shashank-kumar/)
 
 ---
@@ -81,30 +81,30 @@ Lightweight API for logged policy management — designed for microservice decom
 
 ```
                          ┌─────────────────────────────────────┐
-                         │            AWS Cloud                 │
-   User Traffic          │                                      │
+                         │            AWS Cloud                │
+   User Traffic          │                                     │
    ──────────►  Route53  │  ┌──────────────────────────────┐   │
                          │  │  Application Load Balancer   │   │
                          │  │  (Provisioned via ALB Ctrl)  │   │
                          │  └───────────────┬──────────────┘   │
-                         │                  │                   │
+                         │                  │                  │
+                         │        ┌─────────▼───────────┐      │
+                         │        │    EKS Cluster      │      │
+                         │        │  ┌───────────────┐  │      │
+                         │        │  │  Ingress Obj  │  │      │
+                         │        │  └───────┬───────┘  │      │
+                         │        │          │          │      │
+                         │        │  ┌───────▼───────┐  │      │
+                         │        │  │  Service/Pods │  │      │
+                         │        │  └───────────────┘  │      │
+                         │        │                     │      │
+                         │        │ ALB Controller Pod  │      │
+                         │        │  (IRSA → IAM Role)  │      │
+                         │        └─────────────────────┘      │
+                         │                  │                  │
                          │        ┌─────────▼──────────┐       │
-                         │        │    EKS Cluster      │       │
-                         │        │  ┌───────────────┐  │       │
-                         │        │  │  Ingress Obj  │  │       │
-                         │        │  └───────┬───────┘  │       │
-                         │        │          │           │       │
-                         │        │  ┌───────▼───────┐  │       │
-                         │        │  │  Service/Pods │  │       │
-                         │        │  └───────────────┘  │       │
-                         │        │                      │       │
-                         │        │  ALB Controller Pod  │       │
-                         │        │  (IRSA → IAM Role)   │       │
-                         │        └─────────────────────┘       │
-                         │                  │                   │
-                         │        ┌─────────▼──────────┐       │
-                         │        │   IAM / OIDC / STS  │       │
-                         │        └─────────────────────┘       │
+                         │        │   IAM / OIDC / STS  │      │
+                         │        └─────────────────────┘      │
                          └─────────────────────────────────────┘
 ```
 
