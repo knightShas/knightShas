@@ -1,150 +1,110 @@
 <div align="center">
 
-<!-- Dynamic banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shashank%20Kumar&fontSize=50&fontColor=00d4ff&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20%7C%20Platform%20Engineering&descColor=a0c4d8&descAlignY=58&animation=fadeIn" width="100%" />
 
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=AWS+%7C+Kubernetes+%7C+EKS+%7C+Terraform;Building+infrastructure+that+scales;GitOps+%7C+Helm+%7C+CI%2FCD+%7C+Observability;Infrastructure+as+Code%2C+always.)](https://git.io/typing-svg)
 
----
+<br/>
 
-## 👨‍💻 About Me
-
-> *"Automating infrastructure, shipping reliability."*
-
-I'm a **DevOps & Cloud Engineer** with hands-on experience building and operating production infrastructure on **AWS** and **Kubernetes**. I focus on designing scalable, self-healing platforms — from EKS cluster bootstrapping to GitOps-driven deployments.
-
-- 🚀 Currently working on: **EKS + ALB Ingress Controller** with IRSA & Helm
-- 🌩️ Deep-diving into: **Terraform**, **ArgoCD**, **Prometheus/Grafana** observability stacks
-- 🧠 Philosophy: Infrastructure as Code first, manual steps never
-- 📫 Reach me: [shashankkumar8092@outlook.com](mailto:shashankkumar8092@outlook.com)
-- 🔗 LinkedIn: [knight-shashank-kumar](https://www.linkedin.com/in/knight-shashank-kumar/)
-
----
-
-## 🛠️ Tech Stack
-
-### ☁️ Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-%230F1689.svg?style=for-the-badge&logo=helm&logoColor=white)
-
-### 🐳 Containers & Orchestration
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-%23FF9900.svg?style=for-the-badge&logo=amazon-eks&logoColor=white)
-![Amazon ECR](https://img.shields.io/badge/Amazon%20ECR-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-### ⚙️ CI/CD & GitOps
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-
-### 📊 Observability
-![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-
-### 🖥️ OS & Scripting
-![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-
----
-
-## 🏗️ Featured Projects
-
-### 🔷 [EKS ALB Ingress Setup](https://github.com/knightShas)
-> **AWS EKS · ALB Controller · IRSA · Helm · IAM OIDC**
-
-End-to-end setup of an Application Load Balancer on Amazon EKS using the **AWS Load Balancer Controller**.
-- Configured IAM OIDC provider and IRSA for fine-grained pod-level IAM permissions
-- Deployed controller via Helm with custom `values.yaml` overrides
-- Tagged public/private subnets for ALB discovery
-- Created Kubernetes Ingress resources with ALB annotations for path-based routing
-
----
-
-### 🔷 [Spring Boot Online Exam Backend](https://github.com/knightShas/Spring-OnlineExam)
-> **Java · Spring Boot · REST API**
-
-Containerisable Spring Boot REST backend — structured for Docker/ECS deployment patterns.
-
----
-
-### 🔷 [Policy Management API](https://github.com/knightShas/spring-logged-policy)
-> **Java · Spring Boot · Postman**
-
-Lightweight API for logged policy management — designed for microservice decomposition.
-
----
-
-## 📐 Infrastructure Architecture (EKS + ALB)
-
-```
-                         ┌─────────────────────────────────────┐
-                         │            AWS Cloud                │
-   User Traffic          │                                     │
-   ──────────►  Route53  │  ┌──────────────────────────────┐   │
-                         │  │  Application Load Balancer   │   │
-                         │  │  (Provisioned via ALB Ctrl)  │   │
-                         │  └───────────────┬──────────────┘   │
-                         │                  │                  │
-                         │        ┌─────────▼───────────┐      │
-                         │        │    EKS Cluster      │      │
-                         │        │  ┌───────────────┐  │      │
-                         │        │  │  Ingress Obj  │  │      │
-                         │        │  └───────┬───────┘  │      │
-                         │        │          │          │      │
-                         │        │  ┌───────▼───────┐  │      │
-                         │        │  │  Service/Pods │  │      │
-                         │        │  └───────────────┘  │      │
-                         │        │                     │      │
-                         │        │ ALB Controller Pod  │      │
-                         │        │  (IRSA → IAM Role)  │      │
-                         │        └─────────────────────┘      │
-                         │                  │                  │
-                         │        ┌─────────▼───────────┐      │
-                         │        │   IAM / OIDC / STS  │      │
-                         │        └─────────────────────┘      │
-                         └─────────────────────────────────────┘
-```
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Shashank's GitHub Stats](https://github-readme-stats.vercel.app/api?username=knightShas&theme=chartreuse-dark&show_icons=true&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&theme=chartreuse-dark&layout=compact&hide_border=true&hide=python)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=knightShas&theme=chartreuse-dark&hide_border=true)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/knight-shashank-kumar/)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:shashankkumar8092@outlook.com)
+[![Twitter](https://img.shields.io/badge/Twitter-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/kumarshashank45)
+[![Profile Views](https://komarev.com/ghpvc/?username=knightShas&color=58a6ff&style=flat-square&label=Profile+Views)](https://github.com/knightShas)
 
 </div>
 
 ---
 
-## 🎯 Currently Leveling Up
+### About Me
 
-```yaml
-learning:
-  - Terraform (IaC for EKS, VPC, IAM)
-  - ArgoCD GitOps workflows
-  - Prometheus + Grafana observability stack
-  - Kubernetes RBAC & Network Policies
-  - AWS Certified DevOps Engineer (Pro) — in prep
+DevOps & Cloud Engineer focused on building reliable, automated infrastructure on AWS and Kubernetes. I enjoy the full platform engineering stack — from bootstrapping EKS clusters to setting up GitOps pipelines and observability stacks.
 
-goals_2025:
-  - Contribute to open-source CNCF projects
-  - Build a multi-region EKS setup with Terraform
-  - Publish infrastructure patterns as reusable Helm charts
-```
+- **Currently building:** EKS + ALB Ingress Controller with IRSA, Helm, and IAM OIDC federation
+- **Deep-diving into:** Terraform IaC, ArgoCD GitOps, Prometheus/Grafana observability
+- **Philosophy:** Every manual step is a bug waiting to happen
+- **Reach me:** [shashankkumar8092@outlook.com](mailto:shashankkumar8092@outlook.com)
+
+---
+
+### Tech Stack
+
+**Cloud & Container Orchestration**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazon-eks&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Amazon ECR](https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+
+**Infrastructure as Code & Deployment**
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+
+**Observability & Security**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazon-aws&logoColor=white)
+
+**Languages & Scripting**
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
+
+---
+
+### Projects
+
+| Project | Description | Stack | Status |
+|---|---|---|---|
+| **[EKS ALB Setup](https://github.com/knightShas)** | Full EKS cluster with ALB Ingress Controller, IRSA, OIDC, and subnet tagging | EKS · ALB · Helm · IAM | ![Active](https://img.shields.io/badge/Active-2ea44f?style=flat-square) |
+| **[Spring Online Exam](https://github.com/knightShas/Spring-OnlineExam)** | REST backend for online exams — containerisable for ECS/K8s deployment | Spring Boot · Java · Docker | ![Complete](https://img.shields.io/badge/Complete-58a6ff?style=flat-square) |
+| **[Policy Management API](https://github.com/knightShas/spring-logged-policy)** | Lightweight microservice for policy logging — designed for decomposition | Spring Boot · REST | ![Complete](https://img.shields.io/badge/Complete-58a6ff?style=flat-square) |
+| **[JD Bank Frontend](https://github.com/knightShas/JDBank-frontend)** | Admin & policy seller portal, deployable as static S3 + CloudFront | JavaScript · HTML/CSS | ![Complete](https://img.shields.io/badge/Complete-58a6ff?style=flat-square) |
+
+---
+
+### Currently Learning
+
+- Terraform — VPC, EKS, and IAM modules from scratch
+- ArgoCD GitOps deployment workflows
+- Prometheus alerting rules and Grafana dashboards
+- Kubernetes RBAC, Network Policies, and Pod Security Standards
+- Preparing for AWS Certified DevOps Engineer (Professional)
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=knightShas&theme=github_dark&show_icons=true&hide_border=true&count_private=true&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=knightShas&theme=github_dark&layout=compact&hide_border=true&hide=html,css" />
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=knightShas&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+
+</div>
 
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%" />
 
-*"The best infrastructure is the one no one has to think about."*
+*"The best infrastructure is the one nobody has to think about."*
+
+<br/>
+
+[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/knight-shashank-kumar/)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a2332,100:0d1117&height=100&section=footer" width="100%" />
 
 </div>
