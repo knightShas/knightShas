@@ -102,7 +102,7 @@ Lightweight API for logged policy management — designed for microservice decom
                          │        │  (IRSA → IAM Role)  │      │
                          │        └─────────────────────┘      │
                          │                  │                  │
-                         │        ┌─────────▼──────────┐       │
+                         │        ┌─────────▼───────────┐      │
                          │        │   IAM / OIDC / STS  │      │
                          │        └─────────────────────┘      │
                          └─────────────────────────────────────┘
